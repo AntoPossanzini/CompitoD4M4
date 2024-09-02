@@ -1,0 +1,64 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-size: 2em;
+}
+
+.nav-link {
+    font-size: 1em;
+}
+
+fieldset {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card {
+    margin: 0 auto;
+    min-height: 400px;
+    max-width: 350px;
+}
+
+.card-text {
+    font-size: 1em;
+}
+
+ul {
+    font-size: 1.2em;
+}
+
+#image {
+    max-width: 25em;
+}
+
+#buyBtn, #editBtn, #deleteBtn {
+    font-size: 2em;
+}
+
+@media screen and (min-width: 400px) {
+    .card {
+        height: 45em;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .card {
+        height: 50em; /* Correggere l'altezza duplicata */
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .card {
+        height: 45em; 
+        margin: 0 1em;
+        padding: 0;
+    }
+    ul {
+        font-size: 1.4em;
+    }
+}
+
